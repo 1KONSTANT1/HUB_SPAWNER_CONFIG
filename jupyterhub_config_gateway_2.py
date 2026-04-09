@@ -135,7 +135,7 @@ print(port)
                     f'JUPYTERHUB_SERVICE_URL=http://10.100.203.237:8888 '
                     f'JUPYTERHUB_SERVICE_PREFIX=/user/{username}/ '
                     f'JUPYTERHUB_API_URL=http://10.100.203.237:8081/hub/api ' 
-                    f'jupyter-labhub --ip=0.0.0.0 --port={port} --gateway-url=http://10.100.203.237:5555 --MappingKernelManager.buffer_offline_messages=False --MappingKernelManager.shutdown_wait_time=1.0 --MappingKernelManager.kernel_info_timeout=5 '
+                    f'jupyter-labhub --ip=0.0.0.0 --port={port} --gateway-url=http://10.100.203.237:5555 --MappingKernelManager.buffer_offline_messages=False '
                     f'--no-browser '
                     f'--ServerApp.default_url=/lab '
                     f'--ServerApp.base_url=/user/{username}/ '
